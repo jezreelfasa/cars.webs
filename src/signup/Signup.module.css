@@ -1,0 +1,120 @@
+
+body .contain{
+    background: rgb(219, 216, 216);
+   width: 100%;
+    border: 3px solid rgb(228, 228, 233);
+}
+.contain{
+    margin:0;
+    text-align: center;
+}
+
+
+.contain h1{
+    color:rgb(46, 45, 44);
+}
+
+.contain form{
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    z-index: 99;
+    width: 100%;
+    flex-wrap: wrap;
+   
+    
+}
+
+.contain form  span{
+    color: red;
+}
+
+.contain form input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    box-shadow: 0 15px 15px rgb(99, 99, 99, 0.2);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.contain form p{
+    margin-top: 25px;
+    
+}
+
+
+.contain .dob{
+    margin-top: 25px;
+}
+
+
+.contain .nationality,
+ .province{
+        margin-top: 40px;
+        padding: 15px 15px;
+}
+
+.contain,
+ .province label{
+    font-size: 15px;
+ }
+
+ 
+.contain,
+.nationality label{
+   font-size: 15px;
+}
+
+
+
+.mail{
+   display: flex;
+   margin-top: -100px;
+}
+
+.contain .ma input{
+    height: 10px;
+    padding: 5px 10px;
+}
+
+ .sing .bt{
+    margin-top: 150px;
+    margin-left: -400px   ;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+ }
+
+
+
+ 
+@media screen and (max-width: 720px){
+    .contain{
+       background-size: contain;
+    }
+
+    
+    .contain form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+        padding-bottom: 20px;
+        width: 400px;
+    }
+
+ 
+.contain .mail {
+    margin-top: 35px;
+}
+
+.contain .bt{
+    margin-left: 15px;
+}
+       
+
+}
